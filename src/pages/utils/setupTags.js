@@ -1,5 +1,6 @@
 const setupTags = recipes => {
- const allTags = {}
+ 
+ const allTags = {};
 
  recipes.forEach(recipe => {
    recipe.content.tags.forEach(tag => {
